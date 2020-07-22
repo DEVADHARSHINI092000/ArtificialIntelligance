@@ -1,0 +1,32 @@
+print("1.assigning element to different lists")
+list1=[1,3,5,7]
+list2=[56,78,38,90,23]
+list3=[23,45,67,89,90]
+print("INPUTS")
+print("\n",list1)
+print("\n",list2)
+print("\n",list3)
+print("OUTPUTS")
+print(list1.append(9))
+print(list1)
+print(list2.append(35))
+print(list2)
+print(list3.append(100))
+print(list3)
+
+
+print("\n2.accessing element from tuple")
+transport=("car","bike","scooty","tractor","bicycle")
+print(transport)
+print("\n for accesing scooty :",transport[2])
+print("\n for accessing car :",transport[0])
+
+print("\n3.deleting different dictionary element")
+mydict={"myname":"sara","age":"22","gender":"female","address":"chennai"}
+print(mydict)
+print("\n deleting gender and address")
+del mydict["gender"]
+print(mydict)
+del mydict["address"]
+print(mydict)
+
